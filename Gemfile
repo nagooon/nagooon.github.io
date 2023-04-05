@@ -22,3 +22,5 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+gem 'jekyll-admin', group: :jekyll_plugins
