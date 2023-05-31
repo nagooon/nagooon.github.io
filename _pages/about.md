@@ -1,17 +1,18 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Research intern in Visual Computing Lab at SNU
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpeg
   image_circular: false # crops the image to make it circular
 
-News: true  # includes a list of news items
-Publications: false # includes a list of papers marked as "selected={true}"
+news: true  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+education: true
 ---
 
 Hi! I'm Jeonghyeon Na. I am a research intern at Visual Computing Lab at SNU, advised by [Prof. Hanbyul Joo](https://jhugestar.github.io/). I received B.S. in Biological Sciences and Computer Science and Engineering in SNU.

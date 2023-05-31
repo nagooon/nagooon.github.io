@@ -39,18 +39,25 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
+          
+          {% if page.education -%}
+          <!-- Education -->
+          {%- include education.html %}
+          {%- endif %}
 
           <!-- News -->
           {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
             {%- include news.html %}
           {%- endif %}
+          
+          
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
+          
+         
 
           <!-- Social -->
           {%- if page.social %}
