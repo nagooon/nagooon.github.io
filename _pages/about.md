@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research intern in Visual Computing Lab at SNU
+subtitle: M.S./Ph.D. student in Visual Computing Lab at SNU
 
 profile:
   align: right
