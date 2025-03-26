@@ -64,7 +64,9 @@
           {%- if author_is_self -%}
             <!-- 2024/01/22 Self-author underline remove! -->
             <!-- <em>{{author.first}} {{author.last}}</em> -->
-            {{author.first}} {{author.last}}
+            <!-- 2025/03/26 Self-author bold -->
+            <!-- {{author.first}} {{author.last}} -->
+            <b>{{author.first}} {{author.last}}</b>
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
