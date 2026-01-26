@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper ParaHome got accepted in CVPR 2025
+Our paper ParaHome got accepted in CVPR 2025.
